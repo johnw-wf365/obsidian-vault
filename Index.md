@@ -9,7 +9,7 @@
 - [[Ava]] — Business Strategy
 - [[Ira]] — Market Research
 - [[Mia]] — Marketing
-- [[Leo]] — Product Management
+- [[Leo]] — Product Management (Obsidian sync 2026-09-04)
 - [[Zoe]] — Full-Stack Development
 - [[Ian]] — QA Engineering
 - [[Sam]] — DevOps (Obsidian sync 2026-09-04)
@@ -45,4 +45,4 @@
 
 ---
 
-*Last updated: 2026-09-04 by Sam*
+*Last updated: 2026-09-04 by Leo*
