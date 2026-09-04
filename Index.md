@@ -12,7 +12,7 @@
 - [[Leo]] — Product Management
 - [[Zoe]] — Full-Stack Development
 - [[Ian]] — QA Engineering
-- [[Sam]] — DevOps
+- [[Sam]] — DevOps (Obsidian sync 2026-09-04)
 - [[Max]] — Cloud Operations
 - [[Sue]] — PA to Chairman (Obsidian sync 2026-09-04)
 - [[Elon]] — CEO
@@ -45,4 +45,4 @@
 
 ---
 
-*Last updated: 2026-09-04 by Leo*
+*Last updated: 2026-09-04 by Sam*
