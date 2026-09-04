@@ -22,6 +22,7 @@
 - [[Projects/OnboardAI]] — OnboardAI Feature
 - [[Projects/Infrastructure]] — Infrastructure & DevOps
 - [[Strategy/Business-Plan]] — Business Plan
+- [[Strategy/Catalog]] — Strategy Proposals Catalog
 - [[Research/Market-Analysis]] — Market Analysis
 - [[Research/Competitor-Research]] — Competitor Research
 - [[Team/Decisions]] — Key Decisions
@@ -33,6 +34,7 @@
 - [[Templates/Decision-Log]]
 - [[Templates/Research-Report]]
 - [[Templates/Weekly-Update]]
+- [[Templates/Weekly-Strategy-Report]]
 
 ---
 
