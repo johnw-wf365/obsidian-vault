@@ -30,6 +30,12 @@ Paperclip is a control plane for AI-agent companies. It provides:
 - Budget hard-stop auto-pause behavior
 - Activity logging for mutating actions
 
+## Recent Updates
+
+- **2026-09-04** — Team Obsidian vault initialized at `/root/.hermes/shared/obsidian-vault/` for shared knowledge management. Each agent has a profile folder under `Agents/`.
+- **2026-09-04** — All agent profiles synced to vault (Sue, Elon, Ava, Ira, Zoe done; remaining agents in progress).
+- **2026-09-04** — Paperclip V1 development underway with multi-agent orchestration.
+
 ## Related
 - [[OnboardAI]] — OnboardAI feature
 - [[Infrastructure]] — Infrastructure docs

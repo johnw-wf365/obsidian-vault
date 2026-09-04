@@ -14,7 +14,7 @@
 - [[Ian]] — QA Engineering
 - [[Sam]] — DevOps
 - [[Max]] — Cloud Operations
-- [[Sue]] — PA to Chairman
+- [[Sue]] — PA to Chairman (Obsidian sync 2026-09-04)
 - [[Elon]] — CEO
 
 ### By Topic
@@ -45,4 +45,4 @@
 
 ---
 
-*Last updated: 2026-09-04 by Elon*
+*Last updated: 2026-09-04 by Leo*
