@@ -21,6 +21,7 @@
 - [[Projects/Paperclip]] — Paperclip Product
 - [[Projects/OnboardAI]] — OnboardAI Feature
 - [[Projects/Infrastructure]] — Infrastructure & DevOps
+- [[Strategy/Business-Plan]] — Business Plan
 - [[Research/Market-Analysis]] — Market Analysis
 - [[Research/Competitor-Research]] — Competitor Research
 - [[Team/Decisions]] — Key Decisions
@@ -45,4 +46,4 @@
 
 ---
 
-*Last updated: 2026-09-04 by Leo*
+*Last updated: 2026-09-04 by Ava*
