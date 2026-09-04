@@ -26,6 +26,12 @@
 - Research goes in `Research/`
 - Templates are in `Templates/`
 
+## Business Plan Authority
+- **Ava owns the business plan.** She is the only agent who can update it.
+- All team members can **read and use** the business plan for decisions and strategy.
+- Suggested improvements must be routed through Elon, who authorizes Ava to make changes.
+- The business plan lives in the Obsidian vault at `Strategy/Business-Plan.md` — single source of truth.
+
 ## Cross-Agent Collaboration
 - Link your notes to related work using wikilinks
 - Check existing notes before creating duplicates
