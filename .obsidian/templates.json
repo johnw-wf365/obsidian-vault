@@ -1,0 +1,11 @@
+{
+  "folder": "Templates",
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "HH:mm",
+  "templatesFiles": [
+    "Meeting-Note.md",
+    "Decision-Log.md",
+    "Research-Report.md",
+    "Weekly-Update.md"
+  ]
+}

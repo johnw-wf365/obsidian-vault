@@ -1,0 +1,39 @@
+{
+  "plugins": {
+    "internalPlugins": {
+      "fileExplorer": true,
+      "globalSearch": true,
+      "switcher": true,
+      "graph": true,
+      "backlink": true,
+      "outgoingLink": true,
+      "tagPane": true,
+      "pagePreview": true,
+      "templates": true,
+      "noteComposer": true,
+      "commandPalette": true,
+      "editorStatus": true,
+      "markdownImporter": true,
+      "wordCount": true,
+      "openLinkInNewWindow": true,
+      "syntaxHighlight": true,
+      "fileRecovery": true,
+      "publish": false,
+      "sync": false,
+      "canvas": false,
+      "bookmarks": true,
+      "properties": false,
+      "dailyNotes": false,
+      "randomNote": false,
+      "outline": true,
+      "slashCommand": false,
+      "slides": false,
+      "audioRecorder": false,
+      "workspaces": false,
+      "webviewer": false
+    }
+  },
+  "enabledPlugins": [],
+  "disabledPlugins": [],
+  "installedPlugins": []
+}
