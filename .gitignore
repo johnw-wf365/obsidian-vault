@@ -1,0 +1,15 @@
+# Obsidian noise
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+.obsidian/plugins.json
+.obsidian/templates.json
+.obsidian/appearance.json
+.obsidian/core-plugins-migration.json
+.obsidian/graph.json
+.obsidian/cache/
+.obsidian/trash/
+.DS_Store
+*.swp
+*.tmp
+*~
