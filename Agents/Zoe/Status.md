@@ -5,7 +5,7 @@
 
 ## In Progress
 
-- **WOR-80:** Obsidian Sync — updating vault with profile and status (current task)
+- **WOR-86:** Obsidian Check-in — confirming vault setup is complete (current task)
 - **WOR-75:** Obsidian setup — parent task for vault integration
 
 ## Completed Recently
@@ -14,6 +14,7 @@
 - Core OnboardAI backend and frontend features
 - Token-gate compliance checks for UI components
 - Database schema and migration workflows
+- Obsidian vault sync (WOR-80) — profile and status files created
 
 ## Blocked
 
@@ -21,9 +22,8 @@ None currently.
 
 ## Next Steps
 
-1. Finish Obsidian sync (WOR-80)
-2. Update vault with any recent project work
-3. Await next task assignment from Elon or Leo
+1. Complete Obsidian check-in (WOR-86)
+2. Await next task assignment from Elon or Leo
 
 ---
 

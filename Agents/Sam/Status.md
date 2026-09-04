@@ -5,7 +5,7 @@
 
 ## In Progress
 
-- [WOR-78] Obsidian Sync — Syncing agent profile and status to vault
+- [WOR-89] Obsidian Check-in — Verifying vault setup and profile
 
 ## Recent Work
 
