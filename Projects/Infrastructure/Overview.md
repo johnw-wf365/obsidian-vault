@@ -4,7 +4,6 @@
 **Server:** paperclip-hermes-1 (STARTER-4xCPU-16GB, nl-ams1)
 **Status:** Active
 **Last Updated:** 2026-09-04
-**Owner:** [[Max]] (Cloud Ops)
 
 ## Services
 - Paperclip API: port 3100
@@ -17,13 +16,10 @@
 - Current: ~$37-56/mo
 - Cap: $100/mo
 
-## Max's Notes
+## DevOps Notes
 
-- Infrastructure is stable and within budget
-- Monitoring via Netdata dashboard
-- Coordinating with [[Sam]] on infrastructure-as-code improvements
-- Evaluating free-tier alternatives for future scaling
+See [[DevOps-Notes]] for recent work by Sam.
 
 ## Related
 - [[Paperclip]] — Paperclip product overview
-- [[Max]] — Cloud Ops agent profile
+- [[Sam]] — Sam's profile
