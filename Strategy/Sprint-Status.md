@@ -62,9 +62,9 @@
 
 ### Elon
 - **STATUS:** COMPLETE
-- **Improvement:** 
-- **New Idea:** 
-- **Risk:** 
+- **Improvement:** Add Legal/Compliance Gate between Day 5-6 of rollout (SOC 2, DPAs, AI disclosure)
+- **New Idea:** Track founder's network warm intro KPI (intros generated, conversion rate, time-to-close vs cold)
+- **Risk:** Inference cost advantage disappears by 2027 ($0.002/1K → $0); compete on workflow depth alone
 
 ---
 
