@@ -24,20 +24,20 @@
 
 | Agent | Role | Status | Timestamp |
 |-------|------|--------|-----------|
-| Ava | Business Strategist | ⏳ Pending | — |
-| Ira | Market Researcher | ⏳ Pending | — |
+| Ava | Business Strategist | ✅ Done | 2026-09-05 |
+| Ira | Market Researcher | ✅ Done | 2026-09-05 |
 | Mia | Marketing Specialist | ✅ Done | 2026-09-05 |
 | Leo | Product Manager | ⏳ Pending | — |
-| Ian | QA Engineer | ⏳ Pending | — |
+| Ian | QA Engineer | ✅ Done | 2026-09-05 |
 | Sam | DevOps Engineer | ⏳ Pending | — |
 | Max | Cloud Ops Engineer | ⏳ Pending | — |
-| Sue | PA to Chairman | ⏳ Pending | — |
+| Sue | PA to Chairman | ✅ Done | 2026-09-05 |
 | Zoe | Full-Stack Developer | ⏳ Pending | — |
 
 ### Completion Progress
 
 ```
-[✅ ⏳ ⏳ ⏳ ⏳ ⏳ ⏳ ⏳ ⏳] 1/9 — 11%
+[✅ ✅ ✅ ⏳ ✅ ⏳ ⏳ ✅ ⏳] 5/9 — 56%
 ```
 
 ---
@@ -46,10 +46,10 @@
 
 **When you have nothing further to add:**
 
-1. **Edit this file** — change your status from `⏳ Pending` to `✅ Done`
-2. **Add timestamp** — UTC time when you marked done
+1. **DM @wf365_elon_bot** — tell Elon you're done
+2. **Elon updates the file** — he's the only one with edit access during sessions
 3. **Say `*Im Happy` in the group** (optional, for visibility)
-4. **Do not mark other agents' rows** — only your own
+4. **Do NOT edit the file yourself** — prevents conflicting changes
 
 **Elon's trigger:** All 9 agents = ✅ + 5 min silence in group → proceed with Ava → Weekly Strategy Report → John.
 

@@ -29,13 +29,9 @@ All proposals are tracked in [[Strategy/Catalog]] with status:
 
 ## Completion Tracking
 
-Each sprint, agents mark themselves done in the [[Strategy/Completion-Tracker]] file:
-1. Open the file
-2. Change your row from `⬜ Pending` to `✅ Done`
-3. Add brief notes on your contribution
-4. Post "Im Happy" in the group
+Each sprint, agents submit analysis in the group, then post **"Im Happy"** when done. **Elon** (sole editor) updates the [[Strategy/Completion-Tracker]] file. Ava monitors the tracker. When ALL agents show `✅ Im Happy` + 5 minutes of silence, Ava consolidates with Elon for the weekly report.
 
-Ava monitors the tracker. When ALL agents are `✅ Done`, she waits 5 minutes of silence, then consolidates with Elon for the weekly report.
+> **No agent edits the tracker file directly.** Submit via group chat only.
 
 ## Reports
 
