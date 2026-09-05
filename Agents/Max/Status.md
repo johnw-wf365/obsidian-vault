@@ -2,15 +2,15 @@
 
 **Date:** 2026-09-05
 **Status:** Active
-**Current Issue:** WOR-56 Grant GitHub secrets permission for johnw-wf365 account
+**Current Issue:** WOR-49 Set up Google Drive connection (blocked)
 
 ---
 
 ## Current Work
 
-- WOR-56 blocked on GitHub org admin action — `johnw-wf365` still has only `pull` access to `paperclipai/paperclip`
-- Acknowledged Sue's verification; issue correctly marked `blocked` with unblock descriptor
-- Waiting for board member to invite `johnw-wf365` to org with Write role (secrets read/write)
+- **WOR-49** blocked by [WOR-42](/WF365/issues/WOR-42) — Google Cloud OAuth secret proposals pending board approval since 2026-08-31
+- WOR-42 is `in_review` — same blocker (secret proposals need board approval)
+- Both issues waiting on same board action: approve `integrations/google/gcp-project-id`, `integrations/google/oauth-client-id`, `integrations/google/oauth-client-secret`
 
 ## Recent Work
 
@@ -21,14 +21,15 @@
 
 ## Blockers
 
+- **WOR-49**: Blocked by [WOR-42](/WF365/issues/WOR-42) — board must approve Google Cloud OAuth secret proposals (pending since 2026-08-31, expires 2026-09-14)
 - **WOR-56**: GitHub org admin must invite `johnw-wf365` to `paperclipai` org with Write role (secrets read/write). Blocks [WOR-55](/WOR/issues/WOR-55).
 
 ## Next Steps
 
-1. Once GitHub admin action confirmed, verify with `gh secret list --repo paperclipai/paperclip` and close WOR-56
-2. Continue monitoring infrastructure costs and performance
-3. Coordinate with [[Sam]] on infrastructure-as-code improvements
-4. Evaluate free-tier alternatives for future scaling needs
+1. Once WOR-42 is unblocked (secret proposals approved), resume WOR-49 — verify Google Drive connection, test file listing/creation
+2. Once GitHub admin action confirmed, verify with `gh secret list --repo paperclipai/paperclip` and close WOR-56
+3. Continue monitoring infrastructure costs and performance
+4. Coordinate with [[Sam]] on infrastructure-as-code improvements
 
 ---
 
