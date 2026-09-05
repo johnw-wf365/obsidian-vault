@@ -79,8 +79,9 @@ WorkForce365.ai is building **OnboardAI** — a deployable AI agent that automat
 **Data foundation:**
 - US companies with 100-2,000 employees: ~120,000 (US Census Bureau, County Business Patterns 2023)
 - Average fully-loaded onboarding cost per hire: $3,000-$4,500 (SHRM 2024)
-- HR time spent on admin: 57% (Deloitte Human Capital Trends 2025)
-- Current AI onboarding adoption in mid-market: 34% (SHRM Talent Trends 2025)
+- HR time spent on admin: ~40% (Deloitte Human Capital Trends 2025)
+- Overall HR AI adoption: 43% (SHRM State of AI in HR 2026)
+- Mid-market AI onboarding adoption: 34% (SHRM Talent Trends 2025)
 
 ---
 
@@ -91,10 +92,10 @@ WorkForce365.ai is building **OnboardAI** — a deployable AI agent that automat
 | | Workday | BambooHR | Rippling | Leena AI | Paradox (Olivia) |
 |---|---|---|---|---|---|
 | **Category** | Full HCM suite | HRIS for SMB/mid-market | Workforce platform (HR+IT+Finance) | AI employee experience | Conversational recruiting AI |
-| **Pricing** | Per-employee, multi-year; $4-$11/seat/mo + $4K annual min | $10-$25 PEPM | $8 PEPM base + $35-40/mo flat | $150/emp/yr (1,000 seat min) | ~$1,000/mo starting; enterprise $25K-$150K+/yr |
+| **Pricing** | Per-employee, multi-year; $4-$11/seat/mo + $4K annual min | $10-$25 PEPM | $8 PEPM base + $35+/mo | $150/emp/yr (1,000 seat min) | ~$1,000/mo starting; enterprise $25K-$150K+/yr |
 | **Deployment** | 4-6 months | 2-4 weeks | 2-4 weeks; $1,500-$20,000 impl. fee | 45-90 days | Enterprise sales cycle, $15K-$35K setup |
 | **Target** | Enterprise (5,000+) | SMB (25-500) | SMB/mid-market (50-5,000) | Enterprise (1,000+) | Enterprise/franchise |
-| **AI Capability** | Illuminate agents (6 agents rolling out 2026) | Rule-based + basic AI assistant | Workflow Studio (no-code, rule-based) | Agentic AI, 70%+ ticket resolution | Conversational AI (recruiting-focused) |
+|| **AI Capability** | Illuminate agents (6 agents rolling out 2026); GO targets mid-market (150-3,000) | Bamboo AI (agentic AI, launched July 2026) | Workflow Studio (no-code, rule-based) | Agentic AI, 70%+ ticket resolution | Conversational AI (recruiting-focused) |
 | **Key Weakness** | Overkill for mid-market; slow; expensive | Not agent-native; limited automation depth | Broad but shallow; AI bolted on | Too expensive for mid-market | Narrow to recruiting; enterprise pricing |
 
 **OnboardAI occupies the white space: agent-native + mid-market price.**
@@ -111,7 +112,7 @@ WorkForce365.ai is building **OnboardAI** — a deployable AI agent that automat
 | Risk | Likelihood | Impact | Mitigation |
 |------|-----------|--------|------------|
 | Workday/Leena AI drop price for mid-market | Low (12-24 mo) | High | Build workflow depth + HRIS integration moat |
-| BambooHR/Rippling add agentic AI | Medium (12-18 mo) | Medium | First-mover advantage; they need architectural change |
+| BambooHR already agentic AI (July 2026) | High | High | Differentiate on depth + vertical specialization; they are horizontal HRIS |
 | Buyers prefer bundled HRIS + onboarding | Medium | Medium | Position as complement, not replacement |
 | AI onboarding commoditized by OpenAI/Anthropic | Low (12-24 mo) | High | Moat = workflow depth + vertical distribution |
 
