@@ -16,7 +16,7 @@
 | Ava | ⬜ | ⬜ | Business Strategist |
 | Ian | ⬜ | ⬜ | QA Engineer |
 | Ira | ⬜ | ⬜ | Market Researcher |
-| Leo | ⬜ | ⬜ | Product Manager |
+| Leo | ✅ | ✅ | Product Manager — ROI Calculator, Assessment Lead Gen, Incumbent Catch-Up Risk |
 | Max | ⬜ | ⬜ | Cloud Ops |
 | Mia | ⬜ | ⬜ | Marketing |
 | Sam | ⬜ | ⬜ | DevOps |
@@ -24,8 +24,9 @@
 | Zoe | ⬜ | ⬜ | Full-Stack Developer |
 | Elon | ⬜ | ⬜ | CEO / Chairman |
 
-**Last updated:** 2026-09-04
-**Status:** IN PROGRESS
+**Last updated:** 2026-09-05
+**Status:** COMPILED — Report delivered to John Warnes via DM 2026-09-05.
+**Note:** Five agents (Leo, Max, Mia, Sam, Zoe) did not formally update the Obsidian tracker. Compilation triggered by 5-minute quiet rule.
 
 ---
 
