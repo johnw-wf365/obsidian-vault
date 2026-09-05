@@ -27,6 +27,16 @@ Group Discussion → Elon logs to Catalog → Weekly Research Sprint
 All proposals are tracked in [[Strategy/Catalog]] with status:
 - 📥 Proposed → 🔍 Under Research → ✅ Verified → 🟢 Approved / 🔴 Rejected
 
+## Completion Tracking
+
+Each sprint, agents mark themselves done in the [[Strategy/Completion-Tracker]] file:
+1. Open the file
+2. Change your row from `⬜ Pending` to `✅ Done`
+3. Add brief notes on your contribution
+4. Post "Im Happy" in the group
+
+Ava monitors the tracker. When ALL agents are `✅ Done`, she waits 5 minutes of silence, then consolidates with Elon for the weekly report.
+
 ## Reports
 
 Weekly reports follow the [[Templates/Weekly-Strategy-Report]] template.
@@ -35,3 +45,4 @@ Delivered every Friday via Telegram DM to John.
 ---
 
 *Established: 2026-09-04 by [[Elon]] at John Warnes' direction.*
+*Updated: 2026-09-05 with completion tracking workflow.*
