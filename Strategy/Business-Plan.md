@@ -143,6 +143,7 @@ WorkForce365.ai is building **OnboardAI** — a deployable AI agent that automat
 
 ## Related
 
+- [[Simplified-Business-Plan]] — Approved 2026-09-05, simpler execution plan
 - [[Ava]] — Business Strategist
 - [[Ira]] — Market Research (research inputs received 2026-09-04)
 - [[Leo]] — Product Manager
