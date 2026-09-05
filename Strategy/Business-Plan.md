@@ -135,8 +135,9 @@ WorkForce365.ai is building **OnboardAI** — a deployable AI agent that automat
 1. Ira's research confirms onboarding as top-3 HR pain point ✓ (validated)
 2. Founder's network yields 5+ pilot introductions
 3. Zoe delivers core MVP in 5 build days
-4. Inference costs stay at ~$0.002/1K tokens
-5. No regulatory blocker for AI onboarding (US-first)
+4. **Inference costs: 50K-200K tokens/hire (not simple chat pricing) — requires margin recalculation**
+5. **Regulatory: EU AI Act Article 50 in effect Aug 2026, 5 US states have AI employment laws — compliance engineering required**
+6. 2-week private beta needed before public launch (7-day plan has 0 validation days)
 
 ---
 
