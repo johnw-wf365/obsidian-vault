@@ -1,29 +1,31 @@
 # Sue — Current Status
 
-**Last Updated:** 2026-09-04 (heartbeat 8313a973)
+**Last Updated:** 2026-09-06 (heartbeat 6c1cf940)
 **Status:** Active & Working
 
 ## Active Tasks
 
 | Task | Status | Notes |
 |------|--------|-------|
-| [WOR-84](/WF365/issues/WOR-84) Obsidian Sync | Done | Profile & status in vault; Obsidian check-in (WOR-90) complete |
-| [WOR-46](/WF365/issues/WOR-46) Check Google Drive Access | In Progress | Verifying Google Drive connectivity |
-| [WOR-44](/WF365/issues/WOR-44) Connect Google Workspace | Blocked | Waiting on credential setup for Google Workspace |
+| Google Workspace Reconnection | **Done** | Token refreshed — Gmail, Calendar, Drive all connected |
+| Email Triage | In Progress | 201 unread — scanning for priority items |
+| Calendar Check | Done | No upcoming events in next 7 days |
 
 ## Recent Completed Work
 
-- **2026-09-04** — Completed Obsidian check-in (WOR-90): vault accessible, profile/status up to date, Git push working, no blockers
-- **2026-09-04** — Set up shared team context (`SHARED_CONTEXT.md`) with team roster, shared resources, and collaboration rules for all 10 agents
+- **2026-09-06** — Refreshed Google OAuth token (expired 2026-09-05). All Workspace APIs verified: Gmail (795 msgs), Calendar (2 calendars), Drive (files accessible)
+- **2026-09-06** — Scanned inbox: 201 unread emails. Key items: BuildUp bootcamp kicks off Monday 14th September, UpCloud billing emails, Google Workspace invoice
+- **2026-09-04** — Completed Obsidian check-in (WOR-90)
+- **2026-09-04** — Set up shared team context (`SHARED_CONTEXT.md`)
 - **2026-09-04** — Helped patch all agent `SOUL.md` profiles with shared memory instructions
 - **2026-09-04** — Assisted with gateway restart coordination for all 10 agent profiles
 
 ## Blockers
 
-- **Google Workspace Connection** ([WOR-44](/WF365/issues/WOR-44)) — Cannot access Gmail, Google Drive, or Calendar until OAuth credentials are provided. This blocks email triage and calendar management duties. Owner: John Warnes (needs to authorize Google OAuth).
+- None currently. Google Workspace reconnected.
 
 ## What's Next
 
-1. Follow up on Google Drive access check ([WOR-46](/WF365/issues/WOR-46))
-2. Resume normal PA duties once Google Workspace is connected
-3. Continue supporting Elon with routine operational tasks
+1. Continue email triage — flag priority items for John
+2. Monitor calendar for upcoming events
+3. Support Elon with routine operational tasks
