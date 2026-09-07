@@ -26,14 +26,27 @@ This folder contains the complete PA workflow for John Warnes, Chairman of WorkF
 - **Urgent items:** Telegram DM directly to John
 - **Key people:** Learn from email patterns (ongoing)
 
-## Daily Schedule (London Time)
+## All Recurring Tasks (Paperclip Routines)
 
-| Time | Job | Paperclip Child Issue | What Happens |
-|------|-----|----------------------|-------------|
-| 08:30 | Email Triage | WOR-1028 | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
-| 08:45 | Calendar Monitor | WOR-1029 | Scan next 48h, flag conflicts, prep for high-stakes meetings |
-| 21:00 | Daily Briefing | WOR-1030 | End-of-day summary sent via Telegram DM |
-| Fri 16:00 | Weekly Rhythm Review | WOR-1031 | Pattern analysis, stakeholder matrix update, workflow refinements |
+### PA Workflow — Daily Schedule (London Time)
+
+| Time | Job | Paperclip Routine | What Happens |
+|------|-----|------------------|-------------|
+| 08:30 | Email Triage | `61b2096f` | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
+| 08:45 | Calendar Monitor | `6dec5b02` | Scan next 48h, flag conflicts, prep for high-stakes meetings |
+| 21:00 | Daily Briefing | `6e9be852` | End-of-day summary sent via Telegram DM |
+| Fri 16:00 | Weekly Rhythm Review | `24fc15aa` | Pattern analysis, stakeholder matrix update, workflow refinements |
+
+### System Maintenance
+
+| Schedule | Job | Paperclip Routine | What Happens |
+|----------|-----|------------------|-------------|
+| Every 6h | Obsidian Vault Monitor | `1c998455` | Check vault for recent activity |
+| Every 60m | Archive Noise Emails | `9bba4052` | Archive Carbon/Slack/Tailscale emails |
+
+### Migration Note
+
+All recurring tasks have been moved from Hermes cron jobs to Paperclip routines. The Hermes cron jobs are now **paused** and serve as backups only. Paperclip is the single source of truth for all scheduled work.
 
 ## Operating Principles
 
