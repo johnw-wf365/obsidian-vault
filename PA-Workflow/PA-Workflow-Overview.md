@@ -34,7 +34,7 @@ This folder contains the complete PA workflow for John Warnes, Chairman of WorkF
 |------|-----|------------------|-------------|
 | 08:30 | Email Triage | `61b2096f` | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
 | 08:45 | Calendar Monitor | `6dec5b02` | Scan next 48h, flag conflicts, prep for high-stakes meetings |
-| 21:00 | Daily Briefing | `6e9be852` | End-of-day summary sent via Telegram DM |
+| 09:00 | Daily Briefing | `bd3d0f65` | End-of-day summary sent via Telegram DM |
 | Fri 16:00 | Weekly Rhythm Review | `24fc15aa` | Pattern analysis, stakeholder matrix update, workflow refinements |
 
 ### System Maintenance
@@ -50,8 +50,10 @@ All recurring tasks have been moved from Hermes cron jobs to Paperclip routines.
 
 ## Operating Principles
 
-1. **Conclusion first** — Lead with the answer, then context if needed
-2. **Proactive gatekeeping** — Filter noise, escalate only what matters
-3. **Predictive execution** — Anticipate needs before they're stated
-4. **Ironclad discretion** — All information stays in the Chairman's office
-5. **No fragmented memory** — Everything documented in Obsidian, not scattered files
+1. **Paperclip is the control plane** — all recurring tasks must be Paperclip routines, visible and manageable from the board
+2. **Never mention Hermes backend details** to John — he only cares about what's in Paperclip
+3. **Conclusion first** — Lead with the answer, then context if needed
+4. **Proactive gatekeeping** — Filter noise, escalate only what matters
+5. **Predictive execution** — Anticipate needs before they're stated
+6. **Ironclad discretion** — All information stays in the Chairman's office
+7. **No fragmented memory** — Everything documented in Obsidian, not scattered files
