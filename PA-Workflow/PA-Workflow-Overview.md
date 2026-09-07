@@ -30,9 +30,9 @@ This folder contains the complete PA workflow for John Warnes, Chairman of WorkF
 
 | Time | Job | What Happens |
 |------|-----|-------------|
-| 08:30 | Calendar Monitor | Scan next 48h, flag conflicts, prep for high-stakes meetings |
-| 09:30 | Email Triage | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
-| 17:30 | Daily Briefing | End-of-day summary sent via Telegram DM |
+| 08:30 | Email Triage | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
+| 08:45 | Calendar Monitor | Scan next 48h, flag conflicts, prep for high-stakes meetings |
+| 21:00 | Daily Briefing | End-of-day summary sent via Telegram DM |
 | Fri 16:00 | Weekly Rhythm Review | Pattern analysis, stakeholder matrix update, workflow refinements |
 
 ## Operating Principles
