@@ -5,42 +5,44 @@
 
 ## Summary
 
-Created website brief from John's comprehensive design specification, designed 8-page site mockup, and uploaded deliverables to Google Drive.
+Created comprehensive website brief incorporating John's full design specification and all research/discussion information. Produced v3 report with light theme for readability.
 
-## Deliverables (v2)
+## Deliverables (v3 — current)
 
-- **Report PDF:** [WorkForce365-Website-Rebrand-Report-v2.pdf](https://drive.google.com/file/d/1Yh9Yl3MgDvfQR7VddSABa4Dt0T00bV8G/view)
-- **HTML Mockup:** [WorkForce365-Website-Mockup-v2.html](https://drive.google.com/file/d/11UuWqaJsEqxeYTUSRZ4bZvu851wJmIo7/view)
+- **Report PDF:** [WorkForce365-Website-Rebrand-Report-v3.pdf](https://drive.google.com/file/d/109CjHvfVAwcFgotA0s2tynVO6zyrD61i/view)
+
+## Previous versions
+
+- v2: [Report PDF](https://drive.google.com/file/d/1Yh9Yl3MgDvfQR7VddSABa4Dt0T00bV8G/view) | [HTML Mockup](https://drive.google.com/file/d/11UuWqaJsEqxeYTUSRZ4bZvu851wJmIo7/view)
+- v1: [Report PDF](https://drive.google.com/file/d/1z8umsWw4EDMreTg1NI-2QbY5zBA9GJXE/view) | [HTML Mockup](https://drive.google.com/file/d/10TCk63XnPmmgtim1Xwg2z96YZjRe0gGq/view)
 
 ## Location
 
 Google Drive: Wofkforce365/_AGENTS/Ava
 
-## Site Architecture
+## v3 Report Contents
 
-1. Homepage (Hero + Old vs New Comparison)
-2. Product & Architecture (Virtual Control Tower)
-3. Ecosystem Integrations (Middleware)
-4. Omnichannel Interfaces (Voice & Web Chat)
-5. Pricing & ROI (Interactive)
-6. Governance & Security
-7. Contact & Deployment
-8. Privacy & Use Policy (Legal)
-
-## Brand Positioning
-
-"Enterprise Trust meets Silicon Valley AI" — DLaaS (Digital Labor-as-a-Service) platform
-
-## Design Decisions
-
-- Dark mode default, Slate/Navy/Neon Blue palette
-- High-contrast, minimal, technical, authoritative
-- Sticky header with "Deploy a Digital Worker" CTA
-- Compliance badges in footer (ISO 42001, SOC 2, UK GDPR)
-- Outcome-based pricing messaging
+1. Executive Summary
+2. Company Vision & Value Proposition (5 core pillars)
+3. Market Segmentation: Enterprise vs SME
+4. Platform Architecture (The Trust Layer)
+5. Go-To-Market Strategy (3-phase)
+6. MVP Wedge Product: Vendor Onboarding
+7. Pricing Strategy & Unit Economics
+8. Agent Training Architecture (3-Tier)
+9. Data Ingestion Pipeline
+10. RLHF via Virtual Control Tower
+11. Industry Gold Standard: Healthcare
+12. Agentic Transactional Safety (Saga Pattern)
+13. Agentic Economy & B2A Commerce
+14. Labor Union & Works Council Navigation
+15. Website Design Specification (8 pages)
+16. Next Steps
 
 ## Notes
 
 - John provided comprehensive design specification brief
-- v1 was based on business plan; v2 incorporates John's full brief
-- Zoe can implement as production-ready HTML/CSS when approved
+- v1 was based on business plan
+- v2 incorporated John's full brief
+- v3 incorporates all research/discussion info and uses light theme for readability
+- Team review requested: Ira, Ian, Mia, Leo
