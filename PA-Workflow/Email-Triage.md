@@ -51,12 +51,24 @@
 | Create calendar invite | Meeting request from known contact | With John's confirmation first |
 | Send holding reply | P3 emails needing time | "John will respond by [date]" |
 
+## Domain-Specific Rules
+
+### BuildUp Emails
+- **From:** `@skool.com`, `@buildup.com`, `@justbuildup.com`, BuildUp Bootcamp
+- **Action:** Always apply Gmail label `BuildUp`
+- **Classification:**
+  - Event reminders, weekly digests, post notifications → P4 (NOISE → Archive after labeling)
+  - Membership/account related → P2 (IMPORTANT — draft response for John)
+  - General Q&A or community posts → P3 (ROUTINE → file for reference)
+- **Age rule:** If email is over 14 days old → archive (remove from inbox, keep labeled)
+
 ## Daily Triage Process
 
 1. Scan inbox for new unread emails
 2. Classify each email (P1-P4)
 3. Apply appropriate label
-4. Take autonomous action where pre-approved
-5. Flag P1 items via Telegram DM
-6. Queue P2 items for John's review
-7. Log summary in [[PA-Workflow/Daily-Briefing]]
+4. **Apply domain-specific rules (above) where triggered**
+5. Take autonomous action where pre-approved
+6. Flag P1 items via Telegram DM
+7. Queue P2 items for John's review
+8. Log summary in [[PA-Workflow/Daily-Briefing]]
