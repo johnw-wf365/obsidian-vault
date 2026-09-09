@@ -2,7 +2,7 @@
 
 **Author:** Sue (PA to Chairman)
 **Last Updated:** 2026-09-09
-**Status:** Draft — Pending Approval
+**Status:** Approved — Pending Final 3 Decisions
 
 ## Overview
 
@@ -12,6 +12,16 @@ Automated email processing workflow that:
 3. Routes emails based on assessment and configurable rules
 4. Creates Paperclip tasks for actionable emails
 5. Archives all processed emails
+
+## Confirmed Settings (from John's answers)
+
+| Setting | Value |
+|---------|-------|
+| Frequency | Every 30 minutes |
+| Triage owner | Sue (PA) |
+| Body truncation | No — include full body |
+| Attachments | Only for non-executable files |
+| Telegram notifications for suspicious | No — archive silently |
 
 ## Security Threat Assessment Framework
 
@@ -82,7 +92,7 @@ For each UNREAD email in inbox:
   │   ├─► SUSPICIOUS?
   │   │   ├─► Label: _*Suspicious
   │   │   ├─► Mark: Read
-  │   │   └─► Archive
+  │   │   └─► Archive (silently — no Telegram notification)
   │   │
   │   └─► CLEAR?
   │       ├─► Check IGNORE LIST
@@ -119,14 +129,21 @@ Date: [Email date]
 
 Subject: [Email subject]
 
-[Email body text]
+[Email body text — full, not truncated]
 ```
 
 ### Task Metadata
 - **Assignee:** Sue (PA)
 - **Status:** triage
 - **Priority:** (assessed based on content)
-- **Labels:** (extracted from email if applicable)
+- **Attachments:** Only for non-executable files (.pdf, .docx, .xlsx, .png, .jpg, etc.)
+- **Skipped attachments:** .exe, .zip, .js, .vbs, .scr, .bat, .ps1, .msi, .dmg, .iso
+
+## Pending Decisions (Need John's Input)
+
+1. **Additional threat indicators** — John said "Let's discuss"
+2. **Ignore list additions** — John said "Let's discuss"
+3. **BuildUp email handling** — John said "Let's discuss"
 
 ## Implementation Components
 
@@ -136,34 +153,19 @@ Subject: [Email subject]
 
 ### 2. Paperclip Routine
 - **Name:** PA: Email Triage & Security Scan
-- **Schedule:** Every 30 minutes (or as needed)
+- **Schedule:** Every 30 minutes
 - **Assignee:** Sue
 
-### 3. Processing Script (conceptual)
+### 3. Processing Logic
 - Fetch unread emails via Google API
 - Apply security assessment
 - Apply ignore rules
 - Create tasks for actionable emails
 - Apply labels and archive
 
-## Questions for John
-
-1. **Threat indicators** — Are there additional threat patterns you want included?
-2. **Ignore list** — Should we add more recipients/domains to the ignore list?
-3. **Task priority** — How should priority be assessed for created tasks?
-4. **Task labels** — Should we auto-label tasks based on sender/domain?
-5. **Frequency** — How often should the triage run? (Every 30 min? Every hour?)
-6. **Suspicious email handling** — Should you be notified via Telegram when suspicious emails are found?
-7. **Task triage** — Who should triage the created tasks? (You? Me? Someone else?)
-8. **Email body truncation** — Should we truncate long email bodies in task descriptions?
-9. **Attachment handling** — Should attachments be downloaded and attached to tasks?
-10. **BuildUp emails** — Should BuildUp emails continue to be handled by existing rules, or should they go through this new workflow?
-
 ## Next Steps
 
-1. Review and approve this plan
-2. Finalize threat indicators and ignore list
-3. Create Obsidian configuration files
-4. Create Paperclip routine
-5. Test with a small batch of emails
-6. Monitor and refine
+1. Finalize 3 pending decisions (threat indicators, ignore list, BuildUp handling)
+2. Create Paperclip routine
+3. Test with a small batch of emails
+4. Monitor and refine
