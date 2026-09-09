@@ -50,23 +50,18 @@ Automated email processing workflow that:
 ## Ignore List
 
 ### Configuration File
-`PA-Workflow/Email-Ignore-List.json` — editable ignore list
+`PA-Workflow/Email-Ignore-List.md` — editable ignore list
 
 ### Current Ignore List
 
-```json
-{
-  "recipients": [
-    "paul-agent@workforce365.ai"
-  ],
-  "senderDomains": [
-    "upcloud.com",
-    "google.com"
-  ],
-  "lastUpdated": "2026-09-09",
-  "updatedBy": "Sue"
-}
-```
+| Recipient | Reason |
+|-----------|--------|
+| `paul-agent@workforce365.ai` | Automated agent communications |
+
+| Domain | Reason |
+|--------|--------|
+| `upcloud.com` | Infrastructure notifications |
+| `google.com` | Google service notifications |
 
 ## Processing Workflow
 
