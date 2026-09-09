@@ -1,32 +1,34 @@
 # Sue — Current Status
 
-**Last Updated:** 2026-09-06 (heartbeat 4dd47d4c)
+**Last Updated:** 2026-09-09 (heartbeat)
 **Status:** Active & Working
 
 ## Active Tasks
 
 | Task | Status | Notes |
 |------|--------|-------|
-| WOR-1020 — Establish PA workflow | **Done** | Full PA workflow built in Obsidian + 4 automated cron jobs running daily |
+| WOR-1020 — Establish PA workflow | **In Review** | Email Triage & Security Plan drafted. Interaction `0b38c97c` pending — 8 questions for John. Paperclip routines active. |
 | Google Workspace | **Connected** | Gmail, Calendar, Drive all working |
-| Email Triage | Active | Automated daily at 09:30 |
-| Calendar Monitoring | Active | Automated daily at 08:30 |
-| Daily Briefing | Active | Automated daily at 17:30 via Telegram |
-| Weekly Rhythm Review | Active | Automated Fridays at 16:00 |
+| Email Triage | Active | Paperclip routine running every 30 min |
+| Calendar Monitoring | Active | Paperclip routine running daily at 08:45 |
+| Daily Briefing | Active | Paperclip routine running daily at 09:00 |
+| Weekly Rhythm Review | Active | Paperclip routine running Fridays at 16:00 |
 
 ## Recent Completed Work
 
-- **2026-09-06** — WOR-1020: Locked in PA workflow with 4 recurring cron jobs (email triage, calendar monitor, daily briefing, weekly rhythm review). All delivering via Telegram.
-- **2026-09-06** — WOR-1020: Built complete PA workflow in Obsidian (`PA-Workflow/` folder) — 6 structured documents.
-- **2026-09-06** — WOR-1020: Analyzed Gmail inbox (20 unread) and calendar (empty). Created interaction with 7 questions for John.
-- **2026-09-06** — Refreshed Google OAuth token. All Workspace APIs verified.
+- **2026-09-09** — WOR-1020: Drafted Email Triage & Security Plan. Created Obsidian config files (threat definitions, ignore list). Created interaction with 8 questions for John. Moved issue to in_review with pending interaction as review path.
+- **2026-09-07** — Migrated all recurring tasks from Hermes cron jobs to Paperclip routines. 6 recurring tasks active in Paperclip.
+- **2026-09-07** — Built complete PA workflow in Obsidian with 6 structured documents.
+- **2026-09-06** — WOR-1020: Analyzed Gmail inbox (20 unread). Created interaction with 7 questions for John.
 
 ## Blockers
 
-- None currently.
+- **Interaction 0b38c97c** pending — awaiting John's answers to 8 questions about Email Triage & Security Plan.
 
 ## What's Next
 
-1. First automated runs tomorrow (08:30 calendar, 09:30 triage, 17:30 briefing)
-2. Build stakeholder priority matrix from email patterns
-3. Refine workflow based on John's feedback
+1. When John responds to interaction — finalize Email Triage & Security Plan
+2. Update Obsidian config files based on John's answers
+3. Create Paperclip routine for email triage with security scanning
+4. Test with small batch of emails
+5. Begin daily operations — inbox triage, calendar monitoring, daily briefing
