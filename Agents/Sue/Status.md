@@ -24,6 +24,7 @@
 ## Recent Work
 
 - **2026-09-09** — Finalized Email Triage & Security Plan. All config files in Obsidian. Issue closed.
+- **2026-09-09** — Added 7 domains to ignore list (skool.com, warmwind.com, proton.me, openrouter.ai, github.com, manus.im, searchland.co.uk).
 - **2026-09-09** — Migrated all recurring tasks to Paperclip routines. Archived old "PA: Daily Email Triage".
 - **2026-09-09** — Fixed ignore list file to be .md instead of .json.
 
