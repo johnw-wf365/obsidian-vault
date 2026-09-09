@@ -62,6 +62,11 @@
   - General Q&A or community posts → P3 (ROUTINE → file for reference)
 - **Age rule:** If email is over 14 days old → archive (remove from inbox, keep labeled)
 
+### Paul-Agent Communications
+- **From:** `paul-agent@workforce365.ai`, Carbon Voice notifications routed to Paul, UpCloud mentions of "Paul's connection unavailable"
+- **Action:** Always apply Gmail label `paul-agent`, archive (remove from inbox), **keep marked as unread**
+- **Classification:** All P3 (automated system alerts, health check notifications)
+
 ## Daily Triage Process
 
 1. Scan inbox for new unread emails
