@@ -16,6 +16,13 @@
 |--------|--------|
 | `upcloud.com` | Infrastructure notifications |
 | `google.com` | Google service notifications |
+| `skool.com` | BuildUp bootcamp platform |
+| `warmwind.com` | Warmwind notifications |
+| `proton.me` | ProtonMail notifications |
+| `openrouter.ai` | OpenRouter notifications |
+| `github.com` | GitHub notifications |
+| `manus.im` | Manus notifications |
+| `searchland.co.uk` | SearchLand notifications |
 
 ## How to Edit
 
