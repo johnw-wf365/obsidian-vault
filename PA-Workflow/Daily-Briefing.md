@@ -6,6 +6,33 @@
 
 ## Briefing Template
 
+# Daily Briefing — 2026-09-09
+
+## 📧 Email Summary
+- **Unread:** 50 → 7 remaining in inbox
+- **P1 Urgent:** 0
+- **P2 Important:** 1 — UpCloud Accounts & Billing (4 emails, needs response)
+- **Actioned autonomously:** 43 archived (P4 noise), 2 marked read (GitHub PAT, GWS invoice)
+
+## 📅 Tomorrow's Calendar
+- No events scheduled for Sep 10
+
+## ⚡ Items Needing Your Attention
+1. **UpCloud billing issue** — Invite sent to paul-agent@workforce365.ai but you're logged in as johnw@. Taylor confirmed email must match invite. Suggested action: log in with paul-agent@ or ask Taylor to resend invite to johnw@.
+
+## 📝 Drafts Awaiting Approval
+1. **Re: Accounts and Billing (UpCloud)** — "Thanks Taylor, please resend the invite to johnw@workforce365.ai — that's the account I use for billing."
+
+## 🔮 Coming Up This Week
+- No upcoming events on calendar
+
+## 📊 Pattern Notes
+- Heavy noise volume from LinkedIn (connection requests, job opportunities), Tailscale (product updates), Carbon Voice (promotions), and Proton (upsell). All archived.
+- BuildUp emails properly labeled and archived per domain rules.
+- GitHub PAT "paperclip=hermes-1" confirmed legitimate — marked read.
+
+---
+
 ```markdown
 # Daily Briefing — [Date]
 
