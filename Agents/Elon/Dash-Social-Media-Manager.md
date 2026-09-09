@@ -2,8 +2,8 @@
 
 **Role:** Social Media Manager
 **Reports to:** [[Mia]] (Marketing Specialist)
-**Status:** pending_approval (name change requested: Dash → Dan)
-**Agent ID:** d03b9b8f-31a8-402d-a49f-24ad13247a07
+**Status:** pending_approval
+**Agent ID:** a4fc9b82-ba46-407a-b846-a90fe7de6862
 **Source:** [[WOR-1189]]
 
 ## Role Summary
