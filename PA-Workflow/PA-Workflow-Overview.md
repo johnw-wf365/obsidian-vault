@@ -34,7 +34,7 @@ This folder contains the complete PA workflow for John Warnes, Chairman of WorkF
 |------|-----|------------------|-------------|
 | 08:30 | Email Triage | `61b2096f` | Classify inbox P1-P4, act autonomously on P3/P4, flag P1 via Telegram |
 | 08:45 | Calendar Monitor | `6dec5b02` | Scan next 48h, flag conflicts, prep for high-stakes meetings |
-| 09:00 | Daily Briefing | `bd3d0f65` | End-of-day summary sent via Telegram DM |
+|| 09:00 | Daily Briefing | `bd3d0f65` | Morning summary sent via Telegram DM |
 | Fri 16:00 | Weekly Rhythm Review | `24fc15aa` | Pattern analysis, stakeholder matrix update, workflow refinements |
 
 ### System Maintenance
