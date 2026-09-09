@@ -9,6 +9,7 @@
 - [[Ava]] — Business Strategy
 - [[Ira]] — Market Research
 - [[Mia]] — Marketing
+- [[Dash]] — Social Media Manager
 - [[Leo]] — Product Management (Obsidian sync 2026-09-04)
 - [[Zoe]] — Full-Stack Development
 - [[Ian]] — QA Engineering
