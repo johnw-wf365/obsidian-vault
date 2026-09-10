@@ -67,6 +67,15 @@
 - **Action:** Always apply Gmail label `paul-agent`, archive (remove from inbox), **keep marked as unread**
 - **Classification:** All P3 (automated system alerts, health check notifications)
 
+## Transcription
+
+- **Tool:** `whisper-transcribe` (local, no API keys needed)
+- **Location:** `/opt/whisper.cpp/`, wrapper at `/usr/local/bin/whisper-transcribe`
+- **Models:** tiny (75MB, fast), base (140MB), small (500MB), medium (1.5GB), large-v3 (3GB)
+- **Supports:** mp4, mkv, mov, mp3, wav, flac, ogg, m4a, aac
+- **Output formats:** text, srt, vtt, json, csv
+- **Usage:** `whisper-transcribe <file> [model] [format]`
+
 ## Daily Triage Process
 
 1. Scan inbox for new unread emails
