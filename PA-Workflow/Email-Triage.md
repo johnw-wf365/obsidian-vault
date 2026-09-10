@@ -67,6 +67,15 @@
 - **Action:** Always apply Gmail label `paul-agent`, archive (remove from inbox), **keep marked as unread**
 - **Classification:** All P3 (automated system alerts, health check notifications)
 
+## Temporary Rule — BuildUp Email Monitor
+
+- **From:** `hello@justbuildup.com`
+- **Trigger:** Email arrives and is unread
+- **Action:**
+  1. Mark email as **read** (leave in inbox, do not archive)
+  2. DM John Warnes on Telegram: *"New email from hello@justbuildup.com in your inbox. Do you still want this address monitored?"*
+- **If John replies "no":** Remove this temporary rule from Email-Triage.md
+
 ## Transcription
 
 - **Tool:** `whisper-transcribe` (local, no API keys needed)
