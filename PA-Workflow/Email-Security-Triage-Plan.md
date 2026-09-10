@@ -131,5 +131,10 @@ Subject: [Email subject]
 ## Next Steps
 
 1. ~~Create Paperclip routine~~ — Done (2026-09-10, routine `22d8b165`)
-2. Test with small batch of emails — Done (0 unread at time of setup)
-3. Monitor and refine — Ongoing
+2. ~~Test with small batch of emails~~ — Done (0 unread at time of setup)
+3. ~~Script creates Paperclip tasks~~ — Done (2026-09-10, `process_emails.py` updated)
+4. Monitor and refine — Ongoing
+
+## Changelog
+
+- **2026-09-10**: `process_emails.py` updated to create Paperclip tasks for actionable emails when running in heartbeat context (env vars `PAPERCLIP_API_KEY`, `PAPERCLIP_COMPANY_ID`). Script now auto-detects heartbeat context and creates child issues with full email body, sender info, and parentId set to the current task.
