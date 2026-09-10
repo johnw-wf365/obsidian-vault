@@ -61,3 +61,26 @@
 **Tasks created:** 0  
 
 Inbox clean. No unread emails.
+
+---
+
+## Scan 4: 14:51 UTC
+**Scan type:** WOR-1265 — Tailscale webinar invitation triage  
+**Emails scanned:** 1 (inbox residual from prior scans)  
+**Security threats detected:** 0  
+**Suspicious emails:** 0  
+**Tasks created:** 0 — informational webinar invite, no action required beyond logging  
+
+## Processed
+
+| # | From | Subject | Action |
+|---|------|---------|--------|
+| 1 | hello@tailscale.com | [WEBINAR] The future of AI should be an open ecosystem | Not on ignore list → _*Processed, archived, logged to Obsidian |
+
+## Notes
+
+- Tailscale CEO Avery Pennarun hosting "The Android of AI" webinar Sep 17, 11am PT / 2pm ET
+- Trial expired yesterday (Sep 9) — decision still pending on whether to upgrade or discontinue
+- **Recommendation to John:** Attending this webinar could inform the Tailscale decision. The CEO's vision for open ecosystems aligns with WF365's philosophy. Worth 1 hour on Sep 17.
+- Added to today's briefing as a "Coming Up This Week" item
+- Security: clean, no phishing indicators
