@@ -142,9 +142,43 @@ Inbox clean. No unread emails to process. All messages in inbox are already read
 
 ## Scan 10: ~00:30 UTC (Sep 11)
 **Scan type:** WOR-1285 — PA: Email Triage & Security Scan  
-**Emails scanned:** 0 unread  
+**Emails scanned:** 21 read emails in inbox (0 unread)  
 **Security threats detected:** 0  
 **Suspicious emails:** 0  
-**Tasks created:** 0  
+**Tasks created:** 12  
 
-Inbox clean. No unread emails to process.
+## Processed
+
+| # | From | Subject | Action |
+|---|------|---------|--------|
+| 1 | warmwind <notifications@warmwind.com> | Your warmwind waitlist signup | NOT IGNORE → task created |
+| 2 | warmwind <notifications@warmwind.com> | Your Invitation - Warmwind OS Early Access | NOT IGNORE → task created |
+| 3 | workspace-noreply@google.com | [Notice] Possible unresolved security risks | IGNORE → archived |
+| 4 | noreply@skool.com | 1 event happening tomorrow | IGNORE → archived |
+| 5 | LinkedIn <messages-noreply@linkedin.com> | John, add Samantha Chandler | NOT IGNORE → task created |
+| 6 | LinkedIn <notifications-noreply@linkedin.com> | Business Consulting request from Ishan Tikmani | NOT IGNORE → task created |
+| 7 | noreply@skool.com | 1 event happening tomorrow | IGNORE → archived |
+| 8 | LinkedIn <notifications-noreply@linkedin.com> | Business Consulting request from Cindy Mukombegumi | NOT IGNORE → task created |
+| 9 | BuildUp <noreply@skool.com> | Kristen Build Up posted | IGNORE → archived |
+| 10 | Jonathan Warnes <John@apexpv.com> | Fw: Dunworth International Limited | NOT IGNORE → task created |
+| 11 | Jonathan Warnes <John@apexpv.com> | Fw: Dunworth International Limited | NOT IGNORE → task created |
+| 12 | Ashley Lewis <ashley@searchland.co.uk> | 🟢 Searchland account activated | IGNORE → archived |
+| 13 | Searchland <hello@searchland.co.uk> | You have been invited to Searchland! | IGNORE → archived |
+| 14 | Scott Lumsden via Skool <noreply@skool.com> | Scott Lumsden sent you a message | IGNORE → archived |
+| 15 | Mail Delivery Subsystem <mailer-daemon@googlemail.com> | Delivery Status Notification (Failure) | NOT IGNORE → task created |
+| 16 | Mail Delivery Subsystem <mailer-daemon@googlemail.com> | Delivery Status Notification (Failure) | NOT IGNORE → task created |
+| 17 | LinkedIn <notifications-noreply@linkedin.com> | Business Consulting request from Md Mozammal Haque | NOT IGNORE → task created |
+| 18 | Jonathan Warnes <John@apexpv.com> | Fw: ConnexAI - Proposal | NOT IGNORE → task created |
+| 19 | Jonathan Warnes <John@apexpv.com> | Fw: Folder shared with you: Partner Marketing Material Connex-One | NOT IGNORE → task created |
+| 20 | Google Notifications <notify-noreply@google.com> | Google Cloud Organization is now available | IGNORE → archived |
+| 21 | Gmail Team <mail-noreply@google.com> | Tips for using your new inbox | IGNORE → archived |
+
+## Notes
+- 0 unread emails — all 21 were read emails lingering in inbox
+- 9 emails on ignore list → archived silently
+- 12 emails not on ignore list → tasks created for John's review
+- **Security assessment:** No phishing, no suspicious requests, no threats detected
+- Inbox now completely clean
+
+## Resolved Tasks
+- **WOR-1291** — LinkedIn: Cindy Mukombegumi — Researched. NHS mental health leader, consulting request 8+ months old, domain mismatch. Recommended archive/ignore. Done.
