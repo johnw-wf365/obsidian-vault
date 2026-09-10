@@ -130,6 +130,6 @@ Subject: [Email subject]
 
 ## Next Steps
 
-1. Create Paperclip routine
-2. Test with small batch of emails
-3. Monitor and refine
+1. ~~Create Paperclip routine~~ — Done (2026-09-10, routine `22d8b165`)
+2. Test with small batch of emails — Done (0 unread at time of setup)
+3. Monitor and refine — Ongoing
