@@ -1,8 +1,9 @@
 # BuildUp Membership — Decision Log
 
 **Date:** 2026-09-10
-**Status:** Awaiting John's decision
-**WOR-1201:** Done (analysis complete, interaction pending)
+**Status:** Analysis complete — interaction pending John's decision
+**WOR-1201:** Done (previous analysis)
+**WOR-1205:** In review (interaction created, awaiting John)
 
 ---
 
@@ -12,34 +13,27 @@
 |------|-------|
 | Aug 28, 2026 | BuildUp reached out about membership renewal (johnw@brookland.llc) |
 | Sept 9, 2026 | John complained: only one onboarding session, mentor never followed up, spent significant money, got nothing tangible |
-| Sept 9, 2026 | BuildUp responded: says it's a "partnership not mentoring", claims limited engagement, offers to re-engage, declines refund |
-| Sept 10, 2026 | Sue analyzed, posted comment, created interaction for John |
+| Sept 9, 2026 | BuildUp responded defensively: "partnership not mentoring", blames John for limited engagement |
+| Sept 9, 2026 | John pushed back hard: fundamental disconnect, no renewal fee acceptable, offered to reset/rekindle |
+| Sept 10, 2026 | Sue analysed full thread, posted options to WOR-1205, created interaction |
 
-## BuildUp's Position
+## Key Dates
 
-- It's a partnership, not an educational/mentoring programme
-- John had limited engagement with training/live support
-- Offer to re-engage with training and live sessions
-- Decline refund
-
-## John's Complaint
-
-- Only one onboarding session since joining
-- Assigned mentor/up-line contact failed to make any further contact
-- Zero proactive contact after initial onboarding
-- Spent a lot of money, received nothing tangible
-- Online training videos don't justify the membership fees
+- **Sept 14, 2026** — BuildUp's renewal deadline (4 days away)
+- **Sept 30, 2026** — Membership auto-lapses if no response
 
 ## Options Presented to John
 
-| Option | Label |
-|--------|-------|
-| A | Accept re-engage |
-| B | Push back (partial refund) |
-| C | Let it lapse (**recommended**) |
+| Option | Label | Description |
+|--------|-------|-------------|
+| A | Follow-up email (recommended) | Brief, firm follow-up before Sept 14 reiterating position |
+| B | Wait | Wait for BuildUp's response to John's latest email |
+| C | Let lapse | Don't respond by Sept 14, membership ends Sept 30 |
 
-**Sue's recommendation:** Let it lapse. Mentor failed to follow up, BuildUp won't take responsibility, membership ending anyway. Not worth more time.
+## Sue's Recommendation
+
+**Option A** — Send a brief, firm follow-up before Sept 14. John's position is strong (significant money paid, one onboarding session, mentor disappeared). A follow-up prevents automatic lapse if John wants to continue under the right terms.
 
 ## Outcome
 
-_Pending John's response via interaction ID `3b878e00-4189-4217-bd8d-36cb19dc9a94`_
+Interaction `08dd6633-bb63-445a-9f73-6741384ed523` created on WOR-1205. Awaiting John's response. Issue status: in_review.
