@@ -69,10 +69,11 @@ For each unread email, assess:
 ## Execution
 
 ### Paperclip Routine
-- Issue: [[WOR-1428]]
-- Frequency: Every 30 minutes
+- Issue: [[WOR-1439]]
+- Frequency: Every 30 minutes (cron job `9aab9f1e9864`)
 - Agent: Sue (e1908f0a-43a3-49ed-a5c8-27f82cdaf5f7)
-- Script: `/root/.hermes/skills/productivity/google-workspace/scripts/process_emails.py`
+- Wrapper Script: `/root/.hermes/skills/productivity/google-workspace/scripts/run_triage.sh`
+- Core Script: `/root/.hermes/skills/productivity/google-workspace/scripts/process_emails.py`
 
 ### Manual Run
 ```bash
