@@ -8,13 +8,14 @@ This folder contains the complete PA workflow for John Warnes, Chairman of WorkF
 
 ## Structure
 
-| File | Purpose |
-|------|---------|
-| [[PA-Workflow/Email-Triage]] | Email triage rules, labels, and autonomous actions |
-| [[PA-Workflow/Calendar-Management]] | Calendar rules, deep work blocks, scheduling |
-| [[PA-Workflow/Stakeholder-Priority]] | Key people and prioritization matrix |
-| [[PA-Workflow/Daily-Briefing]] | Daily summary template and cadence |
-| [[PA-Workflow/Rhythm-Log]] | Learning John's patterns over time |
+|| File | Purpose |
+||------|---------||
+|| [[PA-Workflow/Email-Triage]] | Email triage rules, labels, and autonomous actions |
+|| [[PA-Workflow/Calendar-Management]] | Calendar rules, deep work blocks, scheduling |
+|| [[PA-Workflow/Stakeholder-Priority]] | Key people and prioritization matrix |
+|| [[PA-Workflow/Daily-Briefing]] | Daily summary template and cadence |
+|| [[PA-Workflow/Rhythm-Log]] | Learning John's patterns over time |
+|| [[PA-Workflow/Weekly-Reviews]] | Weekly rhythm review archive |
 
 ## John's Preferences (Confirmed 2026-09-06)
 
