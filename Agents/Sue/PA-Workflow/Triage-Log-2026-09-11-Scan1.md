@@ -1,16 +1,19 @@
-# Email Triage Log — 2026-09-11
+# Triage Log — 2026-09-11 Scan 1
 
-## Scan 1: 00:01 UTC
-**Scan type:** WOR-1323 — PA: Email Triage & Security Scan  
-**Emails scanned:** 0 unread  
-**Security threats detected:** 0  
-**Suspicious emails:** 0  
-**Tasks created:** 0  
-**Errors:** 0
+**Time:** 2026-09-11 02:30 UTC
+**Scanner:** Sue (PA)
+**Script:** `process_emails.py` v1
 
-Inbox clean. No unread emails to process.
+## Results
 
----
-**Labels used:**
-- `_*Processed`: Label_4
-- `_*Suspicious`: Label_3
+| Metric | Count |
+|--------|-------|
+| Unread messages | 0 |
+| Suspicious | 0 |
+| Ignore list | 0 |
+| Tasks created | 0 |
+| Errors | 0 |
+
+## Notes
+
+Inbox clean. No action required.
