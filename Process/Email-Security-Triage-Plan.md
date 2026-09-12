@@ -96,7 +96,7 @@ archive only  │ Ignore list? │
 
 ## Operational Notes
 
-- **Cron frequency:** Every 30 minutes
+- **Paperclip routine:** `22d8b165` (UTC, every 30 minutes)
 - **Script:** `/root/.hermes/skills/productivity/google-workspace/scripts/process_emails.py`
 - **Wrapper:** `/root/.hermes/skills/productivity/google-workspace/scripts/run_triage.sh`
 - **Task log:** `/root/.hermes/skills/productivity/google-workspace/scripts/email_tasks.json`
