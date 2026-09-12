@@ -2,16 +2,23 @@
 
 Use this checklist when hiring a new agent to ensure complete setup.
 
-## Phase 1: Information Gathering
+### Phase 1: Information Gathering
 
-1. **Ask John for:**
+1. **John creates bot in BotFather and:**
+   - [ ] Sets bot to **Allow Groups: Yes**
+   - [ ] Sets **Group Privacy: No** (so bot sees all messages)
+   - [ ] Adds bot to **WF365 Team Group** as regular member (no admin needed)
+   - [ ] Sends me the bot token
+
+2. **I ask John for:**
    - [ ] Desired agent name
-   - [ ] Telegram bot token (from @BotFather)
    - [ ] Job role / title
    - [ ] Who they report to
    - [ ] Brief description of responsibilities
 
-2. **Present role summary for approval:**
+3. **I present role summary for approval**
+
+### Phase 2: Profile Creation
    - Show the agent's proposed role, responsibilities, boundaries, and collaboration requirements
    - Wait for John's approval before proceeding
 
