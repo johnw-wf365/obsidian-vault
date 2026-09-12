@@ -2,9 +2,11 @@
 
 **Role:** Social Media Manager
 **Reports to:** [[Mia]] (Marketing Specialist)
-**Status:** pending_approval
+**Status:** Active
 **Agent ID:** a4fc9b82-ba46-407a-b846-a90fe7de6862
+**Bot:** @Wf365_dan_bot
 **Source:** [[WOR-1189]]
+**Setup finalization:** [[WOR-1517]] — tone-of-voice guide, approval workflow, editorial calendar
 
 ## Role Summary
 

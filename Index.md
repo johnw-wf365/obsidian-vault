@@ -24,6 +24,9 @@
 - [[Projects/Infrastructure]] — Infrastructure & DevOps
 - [[Strategy/Business-Plan]] — Business Plan
 - [[Strategy/Catalog]] — Strategy Proposals Catalog
+- [[Marketing/Tone-of-Voice-Guide]] — Brand Voice & Tone
+- [[Marketing/Content-Approval-Workflow]] — Content Approval
+- [[Marketing/Editorial-Calendar]] — Editorial Calendar
 - [[Research/Market-Analysis]] — Market Analysis
 - [[Research/Competitor-Research]] — Competitor Research
 - [[Team/Decisions]] — Key Decisions
