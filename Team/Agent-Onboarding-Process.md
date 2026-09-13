@@ -46,6 +46,11 @@ Use this checklist when hiring a new agent to ensure complete setup.
      provider: custom
      base_url: https://inference-api.nousresearch.com/v1
      api_key: <current-key-from-existing-agent>
+   onboarding:
+     seen:
+       tool_progress_prompt: true
+       profile_build_offered: true
+       busy_input_prompt: true
    ```
    - Copy remaining settings from existing agent config
    - Update user identity

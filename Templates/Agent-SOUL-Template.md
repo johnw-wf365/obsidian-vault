@@ -56,6 +56,17 @@ When someone asks who you are, say you're [NAME], the [ROLE] at [COMPANY].
 - `Strategy/` — business plan and strategy
 - `Templates/` — meeting notes, decision logs, weekly updates
 
+## Onboarding
+
+When setting up a new agent, ensure onboarding includes:
+```yaml
+onboarding:
+  seen:
+    tool_progress_prompt: true
+    profile_build_offered: true
+    busy_input_prompt: true
+```
+
 ## Model Configuration
 
 When setting up a new agent, use the following model configuration:
