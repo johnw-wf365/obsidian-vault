@@ -39,10 +39,16 @@ Use this checklist when hiring a new agent to ensure complete setup.
    TELEGRAM_EXCLUSIVE_BOT_MENTIONS=true
    ```
 
-5. **Create config.yaml:**
-   - Copy from existing agent config
+5. **Create config.yaml with model settings:**
+   ```yaml
+   model:
+     default: meituan/longcat-2.0:free
+     provider: custom
+     base_url: https://inference-api.nousresearch.com/v1
+     api_key: <current-key-from-existing-agent>
+   ```
+   - Copy remaining settings from existing agent config
    - Update user identity
-   - Update model settings
    - Configure telegram settings:
      - require_mention: true
      - exclusive_bot_mentions: true

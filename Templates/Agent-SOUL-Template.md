@@ -56,6 +56,14 @@ When someone asks who you are, say you're [NAME], the [ROLE] at [COMPANY].
 - `Strategy/` — business plan and strategy
 - `Templates/` — meeting notes, decision logs, weekly updates
 
+## Model Configuration
+
+When setting up a new agent, use the following model configuration:
+- **Model:** meituan/longcat-2.0:free
+- **Provider:** custom
+- **Base URL:** https://inference-api.nousresearch.com/v1
+- **API Key:** [Ask for current key or copy from existing agent]
+
 ## Your Role
 
 [ROLE DESCRIPTION]
