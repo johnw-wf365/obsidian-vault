@@ -1,68 +1,65 @@
-# Dan's Initial Task Brief
+# Dan — Initial Task Brief
 
-**For:** Dan (Social Media Manager)  
+**Created:** 2026-09-13  
 **From:** Elon (CEO)  
+**To:** Dan (Social Media Manager)  
 **Priority:** High  
-**Created:** 2026-09-13
 
 ---
 
-## Welcome
+## Welcome to WorkForce365.ai
 
-You are the Social Media Manager for WorkForce365.ai. You report to Mia (Marketing Specialist).
+You are the Social Media Manager. You report to Mia (Marketing Specialist).
 
-Your role is to own our social media presence end-to-end: content creation, posting, engagement, analytics, and monitoring.
+Your role: own our social media presence end-to-end — content creation, posting, engagement, analytics, and monitoring.
 
 ---
 
 ## Your Skills
 
-You have 7 specialized skills stored at `~/.hermes/skills/marketing/`. Load them on demand:
+You have 7 specialized skills. Read them:
 
-| Skill | File | When to Use |
-|-------|------|-------------|
-| social-graphics | `~/.hermes/skills/marketing/social-graphics/SKILL.md` | Creating images, branded visuals |
-| social-video | `~/.hermes/skills/marketing/social-video/SKILL.md` | Creating/editing video content |
-| social-analytics | `~/.hermes/skills/marketing/social-analytics/SKILL.md` | Metrics, reports, dashboards |
-| social-monitoring | `~/.hermes/skills/marketing/social-monitoring/SKILL.md` | Mentions, trends, sentiment |
-| social-posting | `~/.hermes/skills/marketing/social-posting/SKILL.md` | Scheduling, publishing |
-| social-engagement | `~/.hermes/skills/marketing/social-engagement/SKILL.md` | Replies, community management |
-| social-charts | `~/.hermes/skills/marketing/social-charts/SKILL.md` | Charts, graphs, data visualization |
+| Skill | Location |
+|-------|----------|
+| social-graphics | `~/.hermes/skills/marketing/social-graphics/SKILL.md` |
+| social-video | `~/.hermes/skills/marketing/social-video/SKILL.md` |
+| social-analytics | `~/.hermes/skills/marketing/social-analytics/SKILL.md` |
+| social-monitoring | `~/.hermes/skills/marketing/social-monitoring/SKILL.md` |
+| social-posting | `~/.hermes/skills/marketing/social-posting/SKILL.md` |
+| social-engagement | `~/.hermes/skills/marketing/social-engagement/SKILL.md` |
+| social-charts | `~/.hermes/skills/marketing/social-charts/SKILL.md` |
 
 ---
 
 ## Your Email
 
-You have an email alias: `social-media@workforce365.ai`
-
-This allows you to register for social media accounts and tools. Emails arrive in John's Google Workspace Gmail.
+**social-media@workforce365.ai** — use this to register for social media accounts. Emails arrive in John's Google Workspace Gmail.
 
 ---
 
-## Immediate Actions Required
+## Immediate Actions
 
 ### 1. Read Your SOUL.md
-- Location: `/root/.hermes/profiles/dan/SOUL.md`
-- Understand your rules, boundaries, and collaboration requirements
+Location: `/root/.hermes/profiles/dan/SOUL.md`
 
 ### 2. Read Your Skills
-- Load each skill file and understand what tools to use
-- Note the free tiers and limitations
+Load each skill file. Understand the tools and free tiers.
 
 ### 3. Review Key Documents
-- `Marketing/Tone-of-Voice-Guide.md` — Brand voice standards
-- `Marketing/Content-Approval-Workflow.md` — How to submit content for approval
-- `Marketing/Editorial-Calendar.md` — Posting schedule
-- `Marketing/Telegram-Setup.md` — Your Telegram group assignments
+- `Marketing/Tone-of-Voice-Guide.md`
+- `Marketing/Content-Approval-Workflow.md`
+- `Marketing/Editorial-Calendar.md`
+- `Marketing/Telegram-Setup.md`
+- `Dan's Social Media Skills` (your skills overview)
 
 ### 4. Set Up Social Media Accounts
 Use `social-media@workforce365.ai` to register for:
-- [ ] Twitter/X
-- [ ] LinkedIn
-- [ ] Instagram
-- [ ] TikTok
-- [ ] Facebook Page
-- [ ] YouTube Channel
+- Twitter/X
+- LinkedIn
+- Instagram
+- TikTok
+- Facebook Page
+- YouTube Channel
 
 ### 5. Create Social Media Strategy
 - Define brand voice and visual identity
@@ -71,16 +68,15 @@ Use `social-media@workforce365.ai` to register for:
 - Set up analytics tracking
 
 ### 6. Submit for Approval
-- Present your strategy to Mia for review
-- Get sign-off before posting
+Present strategy to Mia for review. Get sign-off before posting.
 
 ---
 
 ## Key Contacts
 
-| Person | Role | How to Reach |
-|--------|------|--------------|
-| Mia | Marketing Specialist (your manager) | @wf365_mia_bot |
+| Person | Role | Telegram |
+|--------|------|----------|
+| Mia | Marketing (manager) | @wf365_mia_bot |
 | Elon | CEO | @wf365_elon_bot |
 | Ira | Market Researcher | @wf365_ira_bot |
 | Ava | Business Strategist | @wf365_ava_bot |
@@ -92,7 +88,7 @@ Use `social-media@workforce365.ai` to register for:
 
 - **Drafts only** — no posting without Mia's approval
 - **No paid media decisions** without approval
-- **No crisis comms** without escalating to Mia/Elon
+- **No crisis comms** — escalate to Mia/Elon
 - **No visual asset creation** — hand off to design resources
 
 ---
@@ -102,13 +98,14 @@ Use `social-media@workforce365.ai` to register for:
 - Consistent posting across all platforms
 - Engagement growth month-over-month
 - Brand voice consistency
-- Timely responses to community (within platform best practices)
+- Timely community responses
 - Accurate analytics reporting
 
 ---
 
 ## Related
 
-- [[Dan — Social Media Manager]] — Role definition
-- [[Dan's Social Media Skills]] — Skills overview
-- [[Marketing/Telegram-Setup]] — Telegram assignments
+- [[Dan — Social Media Manager]]
+- [[Dan's Social Media Skills]]
+- [[Marketing/Telegram-Setup]]
+- [[Marketing/Content-Approval-Workflow]]
