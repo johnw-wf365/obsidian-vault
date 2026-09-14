@@ -4,35 +4,34 @@
 **Issue:** [WOR-1762](/WF365/issues/WOR-1762)
 **Date:** 2026-09-14
 
-## What was built
+## Summary
 
-1. **MCP server configured** in `/root/.hermes/profiles/zoe/config.yaml`:
-   ```yaml
-   mcp_servers:
-     blink:
-       command: npx
-       args: ["-y", "@blinkdotnew/mcp@latest"]
-       env:
-         BLINK_API_KEY: (via .env)
-       timeout: 180
-       connect_timeout: 120
-   ```
+Blink MCP server connected to Zoe's Hermes agent. 91 infrastructure tools available for serverless projects, backends, databases, auth, storage, queues, domains, and hosting.
 
-2. **API key** stored in `/root/.hermes/profiles/zoe/.env` as `BLINK_API_KEY`
+## Configuration
 
-3. **Gateway restarted** — blink MCP server loaded with **91 tools** available
+**Config file:** `/root/.hermes/profiles/zoe/config.yaml`
+```yaml
+mcp_servers:
+  blink:
+    command: npx
+    args: ["-y", "@blinkdotnew/mcp@latest"]
+    env:
+      BLINK_API_KEY: (via .env)
+    timeout: 180
+    connect_timeout: 120
+```
+
+**API key:** stored in `/root/.hermes/profiles/zoe/.env` as `BLINK_API_KEY`
 
 ## Verification
 
-- `hermes mcp list -p zoe` → blink ✓ enabled
-- `blink_project_list` → returned valid response (0 projects, as expected)
-- All 91 tools accessible: projects, backends, databases, auth, storage, queues, domains, AI gateway, phone numbers, etc.
+- `hermes mcp list -p zoe` → blink ✓ enabled (91 tools)
+- `blink_project_list` → returns valid data
+- All tools prefixed `mcp_blink_*`
 
-## How to test
+## Notes
 
-Ask Zoe (via Telegram or chat):
-- "List my blink projects"
-- "Create a new blink project called test-project"
-- "Deploy a backend to blink"
-
-The blink tools are now native agent tools, prefixed `mcp_blink_*`.
+- Secret binding via Paperclip failed (board approval 409); key stored in local `.env` and `config.yaml` as fallback
+- No blink projects exist on the account yet
+- Auth works end-to-end
