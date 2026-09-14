@@ -1,7 +1,7 @@
 # WOR-1710: QA — Calculator Accuracy & Edge Case Testing
 
 **Date**: 2026-09-14
-**Status**: Blocked by WOR-1706
+**Status**: Blocked by WOR-1706 — Standing per Clean Slate Directive (WOR-1769)
 **Assigned**: Ian (QA Engineer)
 
 ## Summary
