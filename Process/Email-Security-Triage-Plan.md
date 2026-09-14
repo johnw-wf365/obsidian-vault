@@ -95,11 +95,10 @@ archive only  │ Ignore list? │
 ---
 
 ## Operational Notes
-
-- **Paperclip routine:** `22d8b165` (UTC, every 30 minutes)
+- **Cron job:** `6ffec7cfe554` (Hermes, every 30 minutes UTC, enabled)
 - **Script:** `/root/.hermes/skills/productivity/google-workspace/scripts/process_emails.py`
 - **Wrapper:** `/root/.hermes/skills/productivity/google-workspace/scripts/run_triage.sh`
 - **Task log:** `/root/.hermes/skills/productivity/google-workspace/scripts/email_tasks.json`
-- **Labels in Gmail:** `_*Suspicious` (threats), `_*Processed` (handled, no action needed)
+- **Labels in Gmail:** `_*Suspicious` (Label_3), `_*Processed` (Label_4)
 - **No duplicate processing:** Emails are marked read and removed from inbox upon processing
 - **Audit trail:** `email_tasks.json` records stats and task IDs after every run
