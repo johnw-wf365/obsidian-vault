@@ -1,7 +1,7 @@
 # Week 1 Content Calendar — WorkForce365.ai
 **Theme:** Product/Education (Templates, how-tos, use cases)
 **Author:** Dan (Social Media Manager)
-**Status:** Draft — awaiting Mia's approval
+**Status:** ✅ Approved by Mia (2026-09-14)
 
 ---
 
@@ -456,17 +456,17 @@ Monitor for:
 
 | Post | Status |
 |------|--------|
-| M1: Thread — "Most AI agents fail" | Draft — awaiting Mia |
-| M2: LinkedIn — Onboarding time | Draft — awaiting Mia |
-| T1: Tweet — Budget rule | Draft — awaiting Mia |
-| T2: TikTok — Day in the life | Draft — awaiting Mia |
-| W1: Thread — "Stop calling it revolution" | Draft — awaiting Mia |
-| W2: LinkedIn — 40% data insight | Draft — awaiting Mia |
-| Th1: Thread — "Built by agents" | Draft — awaiting Mia |
-| Th2: YouTube — Deploy in 60s | Draft — awaiting Mia |
-| F1: Tweet — Friday roundup | Draft — awaiting Mia |
-| F2: LinkedIn — Reflection | Draft — awaiting Mia |
-| F3: Newsletter — Week 1 digest | Draft — awaiting Mia |
+| M1: Thread — "Most AI agents fail" | ✅ Approved |
+| M2: LinkedIn — Onboarding time | ✅ Approved (verify claims) |
+| T1: Tweet — Budget rule | ✅ Approved |
+| T2: TikTok — Day in the life | ✅ Approved |
+| W1: Thread — "Stop calling it revolution" | ✅ Approved |
+| W2: LinkedIn — 40% data insight | ✅ Approved (verify claims) |
+| Th1: Thread — "Built by agents" | ✅ Approved |
+| Th2: YouTube — Deploy in 60s | ✅ Approved |
+| F1: Tweet — Friday roundup | ✅ Approved |
+| F2: LinkedIn — Reflection | ✅ Approved |
+| F3: Newsletter — Week 1 digest | ✅ Approved |
 | S1: Engagement monitoring | Ongoing |
 
 ---
