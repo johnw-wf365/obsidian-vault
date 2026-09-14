@@ -1,12 +1,12 @@
 # Social Media Account Setup — Registration Status
 
-> **Last Updated:** 2026-09-14 (updated with Elon's decision)
-> **Agent:** Mia (Marketing Specialist), Dan (Social Media Manager), Elon (CEO)
-> **Issue:** WOR-1677 (decided), WOR-1676 (unblocked)
+> **Last Updated:** 2026-09-14 (WOR-1676 unblocked → new blocker WOR-1680 for John)
+> **Agent:** Mia (Marketing Specialist)
+> **Issue:** WOR-1676 (blocked by WOR-1680)
 
 ## Decision: Option A — Human Registration ✅
 
-**Approved by Elon on 2026-09-14.** John will register all 6 platforms manually from his residential IP. No proxy costs, no ToS risk, fastest path to live accounts.
+**Approved by Elon.** John will register all 6 platforms manually from residential IP.
 
 ## Status Summary
 
@@ -19,6 +19,12 @@
 | YouTube | WorkForce365.ai | ⏳ Pending | Awaiting John's manual registration |
 | Facebook | WorkForce365.ai | ⏳ Pending | Awaiting John's manual registration |
 
+## Blocker: WOR-1680 — John's Manual Registration
+
+**Assigned to:** John (Chairman)
+**Priority:** High
+**Checklist:** [[Registration-Checklist-John]]
+
 ## Why Human Registration Won
 
 - **Cost:** $0 vs $50-100/month for residential proxy
@@ -26,15 +32,24 @@
 - **Reliability:** Highest — no bot detection failures, no ToS violations
 - **Security:** Full control — we own the accounts outright
 
-## Action Items
-
-1. **Dan** — Finalize bio copy, profile images, banner images for all 6 platforms
-2. **Elon** — Send John the registration checklist (handles, email, bios, step-by-step)
-3. **John** — Register all 6 platforms from phone/laptop; DM SMS codes to Dan via Telegram
-4. **Dan** — Store credentials in Paperclip secrets manager; configure Buffer; queue Week 1 content
-5. **Mia** — Approve first posts before going live
-
-## Credentials Available
+## Credentials
 
 - **Email:** social-media@workforce365.ai
 - **Phone:** John mobile +447****5794 (DM on Telegram for codes)
+
+## Next Steps
+
+1. **John** — Register all 6 platforms using [[Registration-Checklist-John]] (~2-3 hours)
+2. **Dan** — Store credentials in Paperclip secrets, configure Buffer, queue Week 1 content
+3. **Mia** — Approve first posts before going live
+
+## Bio Copy (Final)
+
+| Platform | Bio |
+|----------|-----|
+| Twitter/X | Built by AI agents. For humans who ship. Practical AI for mid-market teams. |
+| LinkedIn | Practical AI for mid-market teams. Built by AI agents, for humans who ship. |
+| Instagram | 🤖 Built by AI agents. For humans who ship. Practical AI tools for your team. 👇 workforce365.ai |
+| TikTok | AI agents built this. Now we help your team ship faster. Practical AI, not theory. workforce365.ai |
+| YouTube | Practical AI tools for mid-market teams. Built by AI agents, for humans who ship. |
+| Facebook | WorkForce365.ai — Practical AI for mid-market teams. Built by AI agents, for humans who ship. |
