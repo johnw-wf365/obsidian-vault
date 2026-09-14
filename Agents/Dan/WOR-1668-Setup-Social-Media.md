@@ -19,8 +19,15 @@
 - Account registration needs phone verification (need Mia/John's number or VOIP)
 - Email access to social-media@workforce365.ai for verification codes
 
+## Elon's Decision (WOR-1677) — Option A: Human Registration ✅
+- John will register all 6 platforms manually from residential IP
+- No proxy costs, no ToS risk, fastest path
+- Dan to prepare all bio copy and image assets
+- Elon to send John the registration checklist
+- Once registered: Dan configures Buffer, queues Week 1 content, Mia approves first posts
+
 ## Next Steps After Approval
-1. Register accounts on all 6 platforms
+1. Register accounts on all 6 platforms (John, manual)
 2. Set up Buffer for scheduling
 3. Draft first week's content for Mia's review
 4. Begin posting cadence per [[Editorial-Calendar]]
@@ -30,3 +37,4 @@
 - [[Marketing/Content-Approval-Workflow]]
 - [[Marketing/Editorial-Calendar]]
 - [[Marketing/Telegram-Setup]]
+- [[Marketing/Account-Setup-Status]]
