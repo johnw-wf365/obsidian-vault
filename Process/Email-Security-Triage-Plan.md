@@ -43,6 +43,12 @@ Label as `_*Processed`, mark read, archive.
 - **Ignore list senders** → Archived silently, no task created
 - **Non-ignore senders** → Archived + Paperclip task created for John's review
 
+### Skip Recipients (left untouched for owning agent)
+
+| Recipient | Owner | Action |
+|-----------|-------|--------|
+| `social-media@workforce365.ai` | Dan | Leave in inbox untouched — do not label, mark read, or archive |
+
 ### Ignore List
 
 | Type | Values |
@@ -59,26 +65,21 @@ New unread email
         │
         ▼
 ┌──────────────────┐
-│ Security scan    │
-│ (keywords,       │
-│  attachments,    │
-│  domain spoof)   │
+│ Skip recipient?  │  (e.g., social-media@workforce365.ai)
+│ (check To field) │
 └──────────────────┘
         │
    ┌────┴────┐
    │         │
-Threat    Clear
+  Skip    Continue
    │         │
    ▼         ▼
-_*Suspicious  ┌──────────────┐
-archive only  │ Ignore list? │
-              └──────────────┘
-               │         │
-              Yes        No
-               │         │
-               ▼         ▼
-          _*Processed  _*Processed
-          archive only  + Paperclip task
+Untouched  ┌──────────────────┐
+in inbox   │ Security scan    │
+           │ (keywords,       │
+           │  attachments,    │
+           │  domain spoof)   │
+           └──────────────────┘
 ```
 
 ---

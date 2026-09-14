@@ -28,6 +28,11 @@ For each unread email, assess:
 
 ### Step 3: Route Based on Assessment
 
+**If addressed to a skipped recipient (e.g., `social-media@workforce365.ai`):**
+1. Leave in inbox untouched (do not label, do not mark read, do not archive)
+2. Log as skipped
+3. NO task created — Dan will process these
+
 **If suspicious:**
 1. Apply label `_*Suspicious`
 2. Mark as read
