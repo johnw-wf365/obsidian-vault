@@ -4,25 +4,66 @@
 **Account Number:** 7131416580  
 **API Key:** 6b06x622lD7PZrKTNlb9f5cVd307B59204OSk4STzV1NSd1WS0n0ry060i72R4sh  
 **Application ID:** fay-agent  
-**API Base URL:** https://api.quickfile.co.uk/1_2/  
-**Auth Method:** MD5(AccountNumber + APIKey + SubmissionNumber)
+**API Base URL:** https://api-beta.quickfile.co.uk  
+**Auth Method:** Bearer <REDACTED>
 
 ## Status
 
-- Token accepted by server (MD5 auth works)
-- JSON endpoints: serializer needs specific wrapper structure
-- XML endpoints: method names unclear without official docs
-- Recommended: Deploy marcusquinn/quickfile-mcp with legacy credentials
+- **REST API fully validated and live**
+- Bearer <REDACTING> working
+- No software to deploy (SaaS platform)
 
-## Chart of Accounts
+## Account Details
 
-Approved by user (2026-09-15). See [[WOR-1925]] for full chart.
+| Field | Value |
+|---|---|
+| Business Name | WORKFORCE365.AI |
+| Type | Limited Company |
+| Address | 30 Lestrange Street, Cleethorpes, United Kingdom, D 35TH 7HQ |
+| VAT Registered | No |
+| Year End Date | 2027-04-05 |
+| Created | 2026-09-15 |
 
-## Bank Feeds
+## Bank Accounts
 
-- UK banks via Open Banking (50+ institutions)
-- £15 + VAT/year for automated feeds
-- PayPal/Stripe via integration
+| ID | Name | Nominal | Type |
+|---|---|---|---|
+| 88289 | Current Account | 1200 | current |
+| 88290 | Directors Loan Account | 1201 | loan |
+| 88291 | Bank Reserve Account | 1210 | reserve |
+| 88292 | Petty Cash | 1230 | petty |
+| 88293 | Credit Card | 1250 | creditcard |
+
+## Existing Nominal Codes (32 total)
+
+**Assets:** 100, 1100, 1200-1250  
+**Liabilities:** 2100, 2200, 2300  
+**Equity:** 3000, 3200  
+**Revenue:** 4000, 4100, 4200, 4400, 4900  
+**Purchases:** 5000, 5100, 5200  
+**Overheads:** 6000-8200  
+**Tax:** 8500  
+
+## Current State (2026-09-15)
+
+- No clients
+- No suppliers
+- No invoices (sales or purchase)
+- No journal entries
+
+## What's Available via REST API
+
+- Clients/Suppliers CRUD
+- Sales invoices, Purchase invoices
+- Payments, Journals
+- Reports (P&L, Balance Sheet, VAT, Aged Debtors)
+- Bank transactions
+- Document uploads
+
+## What Requires Manual User Action
+
+- Bank feeds (Open Banking consent in QuickFile web UI)
+- Stripe/PayPal payment integrations (configure in web UI)
 
 ## Approved Chart of Accounts (2026-09-15)
 
@@ -60,3 +101,7 @@ Approved by user (2026-09-15). See [[WOR-1925]] for full chart.
 | 7010 | Bank Interest Receivable | Finance |
 | 7020 | Bank Interest Payable | Finance |
 | 8010 | Corporation Tax | Tax |
+
+## Sync Policy
+
+Per company policy: QuickFile configuration changes must be tracked in this Obsidian note AND synced to memory. Any agent making changes to QuickFile setup should update this note immediately.
