@@ -96,7 +96,7 @@ in inbox   │ Security scan    │
 ---
 
 ## Operational Notes
-- **Cron job:** `6ffec7cfe554` (Hermes, every 30 minutes UTC, enabled)
+- **Scheduler:** Paperclip routine `22d8b165` (`*/30 * * * *` UTC, active) — creates execution issue per tick
 - **Script:** `/root/.hermes/skills/productivity/google-workspace/scripts/process_emails.py`
 - **Wrapper:** `/root/.hermes/skills/productivity/google-workspace/scripts/run_triage.sh`
 - **Task log:** `/root/.hermes/skills/productivity/google-workspace/scripts/email_tasks.json`
