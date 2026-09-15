@@ -1,8 +1,8 @@
 # Blink MCP Connection — WOR-1762
 
 **Status:** done ✅
-**Issue:** [WOR-1765](/WF365/issues/WOR-1762)
-**Date:** 2026-09-14 → 2026-09-15
+**Issue:** [WOR-1762](/WF365/issues/WOR-1762)
+**Date:** 2026-09-15
 
 ## What Was Built
 
@@ -19,13 +19,26 @@
 - Username: `johnw@workforce365.ai`
 - Password: `C0wP!gD0gB0at`
 
-## Architecture
+## Issue Fixed
 
-- Dashboard server: port 3200
-- Nginx proxy: port 9447 with SSL + basic auth
-- SSL: Let's Encrypt cert (already configured for wf365.workforce365.ai)
-- Auth: `/etc/nginx/.htpasswd_blink`
-- Config: `/etc/nginx/sites-enabled/blink-dashboard`
+The dashboard was showing a blank page because the `/api/tools` endpoint wasn't returning a `success: true` field. Fixed the response format in `server/index.js`:
+
+```javascript
+// Before
+res.json({ tools: mcpTools, count: mcpTools.length });
+
+// After  
+res.json({ success: true, tools: mcpTools, count: mcpTools.length });
+```
+
+## Verification
+
+- Health check: `{"status":"ok","mcpReady":true,"toolCount":91}` ✅
+- Tools list: `success: true, count: 91` ✅
+- Project list: returns valid empty list ✅
+- Page loads correctly ✅
+- SSL: valid certificate ✅
+- Authentication: working ✅
 
 ## Files
 
@@ -37,19 +50,10 @@
 | `/etc/nginx/sites-enabled/blink-dashboard` | Nginx site config |
 | `/etc/nginx/.htpasswd_blink` | Auth credentials |
 
-## Auto-start Dashboard
+## Auto-start
 
 ```bash
 cd packages/blink-dashboard
 export BLINK_API_KEY=blnk_ak_...
 node server/index.js
 ```
-
-## Verification Results
-
-- Health check: `{"status":"ok","mcpReady":true,"toolCount":91}` ✅
-- Project list: returns valid empty list ✅
-- Workspace list: WF365 workspace confirmed ✅
-- Tool calling: all 91 tools accessible ✅
-- SSL: valid certificate ✅
-- Authentication: working ✅
