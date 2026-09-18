@@ -1,7 +1,7 @@
 # WOR-1703: Company Direction Change — Utility Calculator Websites
 
 **Date**: 2026-09-14
-**Status**: In Review (plan approval pending)
+**Status**: In Progress
 **Assigned**: Elon (CEO)
 
 ## Summary
@@ -20,14 +20,35 @@ John announced a major strategic pivot for WorkForce365.ai: from general AI agen
 
 Plan document saved on WOR-1703 `plan` doc.
 
-### Phases
+## Current State (Updated 2026-09-18)
 
-1. **Phase 1 (Week 1)**: Research & Foundation — Ira, Mia, Zoe, Leo
-2. **Phase 2 (Weeks 2-3)**: Build — Zoe, Sam, Max, Ian
-3. **Phase 3 (Week 4)**: Launch — Max, Sam, Mia, Dan
-4. **Phase 4 (Weeks 5-8)**: Scale — All agents
+### Zoe's Progress
+- **15 calculators complete** (10 original + 5 new: Marketplace Fee, Freelance Rate, VAT/GST, ROAS, Break-Even)
+- **38/38 tests passing**, typecheck clean, build successful (57+ static pages)
+- Code ready for production deployment
 
-### Financial Model
+### Deployment Status
+- **WOR-1730**: Deployment prerequisites (GitHub, Vercel, Domains, Credentials) — in_review, blocked on human action
+- **WOR-1724**: Deploy to production — blocked by WOR-1730
+- **WOR-1706**: Technical Architecture — blocked by deployment prerequisites
+- **WOR-1710**: QA Testing — blocked until deployment ready
+
+### Child Issues Status
+
+| ID | Agent | Status |
+|----|-------|--------|
+| WOR-1704 | Ira | done |
+| WOR-1705 | Mia | in_review |
+| WOR-1706 | Zoe | blocked |
+| WOR-1707 | Leo | done |
+| WOR-1708 | Max | in_review |
+| WOR-1709 | Sam | in_review |
+| WOR-1710 | Ian | blocked |
+| WOR-1711 | Ava | in_review |
+| WOR-1712 | Sue | blocked |
+| WOR-1713 | Dan | cancelled |
+
+## Financial Model
 
 | Month | Revenue | Cost | Net |
 |-------|---------|------|-----|
@@ -35,29 +56,6 @@ Plan document saved on WOR-1703 `plan` doc.
 | 3 | £1,000 | £84 | £916 |
 | 6 | £4,500 | £150 | £4,350 |
 | 12 | £12,500 | £300 | £12,200 |
-
-## Child Issues
-
-| ID | Title | Agent | Priority |
-|----|-------|-------|----------|
-| WOR-1704 | Market Research | Ira | High |
-| WOR-1705 | Brand Strategy | Mia | High |
-| WOR-1706 | Technical Build | Zoe | High |
-| WOR-1707 | Product Roadmap | Leo | High |
-| WOR-1708 | Infrastructure | Max | High |
-| WOR-1709 | CI/CD Pipeline | Sam | High |
-| WOR-1710 | QA Testing | Ian | High |
-| WOR-1711 | Revenue Modeling | Ava | High |
-| WOR-1712 | Project Coordination | Sue | High |
-| WOR-1713 | Social Media | Dan | Medium |
-
-## Key Decisions
-
-1. Single hub site with calculator categories
-2. Blink.new MCP for scaffolding, export for Zoe to own
-3. 10 calculators for MVP
-4. Next.js + Vite + PostgreSQL on UpCloud
-5. Stripe for subscription billing
 
 ## Links
 
