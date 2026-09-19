@@ -33,7 +33,9 @@ You have 7 specialized skills. Read them:
 
 ## Your Email
 
-**social-media@workforce365.ai** — use this to register for social media accounts. Emails arrive in John's Google Workspace Gmail.
+**social-media@workforce365.ai** — use this to register for social media accounts.
+
+> **⚠️ Correction (2026-09-19, WOR-2619/WOR-2620):** This address is **not a Gmail alias** and cannot receive mail. The original claim "Emails arrive in John's Google Workspace Gmail" was verified false — sendAs shows only johnw@workforce365.ai, and the social-media label has 0 messages ever. The alias must be created by John in Google Workspace admin before any registration emails can arrive. The 15-min inbox check routine has been paused until it exists. See [[WOR-2620 — Pause Social Media Email Routine]] and [[WOR-1668 — Social Media Presence]].
 
 ---
 
