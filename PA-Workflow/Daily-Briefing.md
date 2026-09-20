@@ -65,10 +65,22 @@
 
 ## Delivery
 
-- **Channel:** Telegram DM to John
-- **Timing:** End of day (17:00–18:00 London)
-- **Format:** Short bullets, conclusion first
+- **Channel:** Telegram DM to John (chat id `6473711033` — see `channel_directory.json`)
+- **Timing:** 09:00 London (routine `bd3d0f65` fires the run)
+- **Format:** Short bullets, conclusion first, emoji section markers, no markdown headers
 - **Urgent items:** Flagged immediately, not held for daily briefing
+
+### Telegram send procedure (verified working 2026-09-20)
+```bash
+cd /root/.hermes/profiles/sue
+export $(grep -E "^TELEGRAM_BOT_TOKEN=" .env | head -1)
+curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+  -H "Content-Type: application/json" \
+  -d "$(jq -n --arg chat_id "6473711033" --arg text "$MSG" '{chat_id:$chat_id, text:$text}')"
+# Check response .ok == true and capture message_id as delivery proof
+```
+Never print or paste the token value anywhere. Also save the briefing to
+`Agents/Sue/Daily-Briefings/YYYY-MM-DD.md` and post it as the run issue comment.
 
 ## Weekly Summary (Friday)
 
